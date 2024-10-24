@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=shoppingCart
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ shoppingCart\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=shoppingCart()
+comment2.params=anItem\ num\ theBag
+comment2.target=void\ addMultiple(Item,\ int,\ BagInterface)
+comment2.text=\r\n\ Method\ addMultiple\ uses\ the\ arraybag's\ add\ function\ but\ manipulates\ it\ to\ add\ multiples\ of\ the\ same\ item\r\n\r\n\ @param\ anItem\ -\ the\ item\ to\ be\ added\r\n\ @param\ num\ -\ how\ many\ times\ the\ item\ should\ be\ added\r\n\ @param\ theBag\ -\ the\ shopping\ cart\ the\ item\ should\ be\ added\ to\r\n
+comment3.params=theBag
+comment3.target=void\ checkout(BagInterface)
+comment3.text=\r\n\ Method\ checkout\ displays\ the\ contents\ of\ the\ shopping\ cart\ along\ with\ \r\n\ the\ total\ price\ of\ the\ items.\r\n\r\n\ @param\ theBag\ -\ the\ shopping\ cart\r\n
+comment4.params=a
+comment4.target=void\ setBudget(int)
+comment4.text=\r\n\ Method\ setBudget\ sets\ the\ budget\r\n\r\n\ @param\ a\ -\ the\ amount\ of\ money\ to\ be\ set\ as\ the\ budget\r\n
+comment5.params=theBag
+comment5.target=void\ checkBudget(BagInterface)
+comment5.text=\r\n\ Method\ checkBudget\ cycles\ through\ the\ shopping\ cart,\ adding\ the\ prices\ \r\n\ together\ to\ get\ a\ total.\ if\ the\ total\ is\ greater\ than\ the\ budget\ that\r\n\ was\ set,\ it\ will\ remove\ items\ until\ the\ shopper\ is\ within\ their\ budget.\ \r\n\r\n\ @param\ theBag\ -\ the\ shopping\ cart\r\n
+numComments=6
